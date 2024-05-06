@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1006</width>
+    <height>347</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>481</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comport_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>120</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Sans Unicode</family>
+    </font>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="baudrate_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>290</y>
+     <width>120</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Sans Unicode</family>
+    </font>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>9600 baud</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>38400 baud</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>115200 baud</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>256000 baud</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>290</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Console</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+   background: #cdcdcd;
+   color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>START</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_2">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>10</y>
+     <width>481</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>325</y>
+     <width>741</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>data</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
